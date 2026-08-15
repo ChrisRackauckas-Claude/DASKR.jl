@@ -68,8 +68,7 @@ let
         isoutofdomain = true,
         unstable_check = true, calck = true, progress = true,
         dtmin = 1, dtmax = 2, dense = true,
-        internalnorm = 0, gamma = 0.5, beta1 = 1.23, beta2 = 2.34,
-        qmin = 1.0, qmax = 2.0
+        internalnorm = 0
     )
 
     prob3 = DAEProblem(testjac, [0.5, -2.0], ones(2), (0.0, 10.0))
